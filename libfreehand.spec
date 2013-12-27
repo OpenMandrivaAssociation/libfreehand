@@ -16,6 +16,7 @@ BuildRequires: pkgconfig(libwpd-0.9)
 BuildRequires: pkgconfig(libwpg-0.2)
 BuildRequires: pkgconfig(zlib)
 BuildRequires: boost-devel
+BuildRequires: gperf
 
 %description
 Libfreehand is library providing ability to interpret and import
