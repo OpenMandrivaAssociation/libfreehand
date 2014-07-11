@@ -5,7 +5,7 @@
 
 Name: libfreehand
 Version: 0.0.0
-Release: 3
+Release: 4
 Source0: http://dev-www.libreoffice.org/src/libfreehand-%{version}.tar.xz
 Summary: Library providing ability to import Adobe/Macromedia drawings
 URL: http://libfreehand.sf.net/
