@@ -1,12 +1,12 @@
-%define api 0.0
-%define major 0
+%define api 0.1
+%define major 1
 %define libname %mklibname freehand %{api} %{major}
 %define devname %mklibname freehand -d
 
 Name: libfreehand
-Version: 0.0.0
-Release: 4
-Source0: http://dev-www.libreoffice.org/src/libfreehand-%{version}.tar.xz
+Version: 0.1.0
+Release: 1
+Source0: http://dev-www.libreoffice.org/src/%{name}/libfreehand-%{version}.tar.xz
 Summary: Library providing ability to import Adobe/Macromedia drawings
 URL: http://libfreehand.sf.net/
 License: MPL 2.0
@@ -14,6 +14,7 @@ Group: System/Libraries
 BuildRequires: doxygen
 BuildRequires: pkgconfig(libwpd-0.9)
 BuildRequires: pkgconfig(libwpg-0.2)
+BuildRequires: pkgconfig(librevenge-0.0)
 BuildRequires: pkgconfig(zlib)
 BuildRequires: boost-devel
 BuildRequires: gperf
