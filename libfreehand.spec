@@ -12,8 +12,8 @@ URL: http://libfreehand.sf.net/
 License: MPL 2.0
 Group: System/Libraries
 BuildRequires: doxygen
-BuildRequires: pkgconfig(libwpd-0.9)
-BuildRequires: pkgconfig(libwpg-0.2)
+BuildRequires: pkgconfig(libwpd-0.10)
+BuildRequires: pkgconfig(libwpg-0.3)
 BuildRequires: pkgconfig(librevenge-0.0)
 BuildRequires: pkgconfig(zlib)
 BuildRequires: boost-devel
@@ -49,6 +49,8 @@ aclocal
 automake -a
 autoheader
 autoconf
+CFLAGS="%{optflags} -Qunused-arguments" \
+CXXFLAGS="%{optflags} -Qunused-arguments" \
 %configure
 
 %build
