@@ -4,9 +4,9 @@
 %define devname %mklibname freehand -d
 
 Name: libfreehand
-Version: 0.1.0
-Release: 3
-Source0: http://dev-www.libreoffice.org/src/%{name}/libfreehand-%{version}.tar.xz
+Version: 0.1.1
+Release: 1
+Source0: http://dev-www.libreoffice.org/src/%{name}/libfreehand-%{version}.tar.bz2
 Summary: Library providing ability to import Adobe/Macromedia drawings
 URL: http://libfreehand.sf.net/
 License: MPL 2.0
