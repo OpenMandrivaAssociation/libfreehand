@@ -14,6 +14,7 @@ Group: System/Libraries
 BuildRequires: doxygen
 BuildRequires: pkgconfig(librevenge-0.0)
 BuildRequires: pkgconfig(zlib)
+BuildRequires:	pkgconfig(lcms2)
 BuildRequires: boost-devel
 BuildRequires: gperf
 
