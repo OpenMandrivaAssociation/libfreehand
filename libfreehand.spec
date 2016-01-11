@@ -50,7 +50,7 @@ autoheader
 autoconf
 CFLAGS="%{optflags} -Qunused-arguments" \
 CXXFLAGS="%{optflags} -Qunused-arguments" \
-%configure
+%configure --disable-werror
 
 %build
 %make
