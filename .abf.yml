@@ -1,4 +1,5 @@
 removed_sources:
   libfreehand-0.1.0.tar.xz: 049008cc7e0aebd781cd3e9f56c931e6e147a4eb
-sources:
   libfreehand-0.1.1.tar.bz2: 713ffc76f065390ce82016ba205415d5bffe724f
+sources:
+  libfreehand-0.1.2.tar.bz2: 9851eee8a0253bbbdb68a46af57f099722d6cf4d
