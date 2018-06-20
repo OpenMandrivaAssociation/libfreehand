@@ -12,9 +12,10 @@ URL: http://libfreehand.sf.net/
 License: MPL 2.0
 Group: System/Libraries
 BuildRequires: doxygen
+BuildRequires: pkgconfig(icu-uc)
 BuildRequires: pkgconfig(librevenge-0.0)
 BuildRequires: pkgconfig(zlib)
-BuildRequires:	pkgconfig(lcms2)
+BuildRequires: pkgconfig(lcms2)
 BuildRequires: boost-devel
 BuildRequires: gperf
 
