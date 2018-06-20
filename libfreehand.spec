@@ -16,6 +16,7 @@ BuildRequires: pkgconfig(icu-uc)
 BuildRequires: pkgconfig(librevenge-0.0)
 BuildRequires: pkgconfig(zlib)
 BuildRequires: pkgconfig(lcms2)
+BuildRequires: pkgconfig(cppunit)
 BuildRequires: boost-devel
 BuildRequires: gperf
 
