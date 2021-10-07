@@ -11,6 +11,7 @@ Summary: Library providing ability to import Adobe/Macromedia drawings
 URL: http://libfreehand.sf.net/
 License: MPL 2.0
 Group: System/Libraries
+Patch0: 0001-Add-missing-semicolon-to-fix-build-with-icu-65.1.patch
 BuildRequires: doxygen
 BuildRequires: pkgconfig(icu-uc)
 BuildRequires: pkgconfig(librevenge-0.0)
@@ -45,7 +46,7 @@ Requires: %{libname} = %{EVRD}
 Development files (Headers etc.) for %{name}.
 
 %prep
-%setup -q -n %{name}-%{version}
+%autosetup -p1
 aclocal
 automake -a
 autoheader
@@ -55,10 +56,10 @@ CXXFLAGS="%{optflags} -Qunused-arguments" \
 %configure --disable-werror
 
 %build
-%make
+%make_build
 
 %install
-%makeinstall_std
+%make_install
 
 %files
 %{_bindir}/*
