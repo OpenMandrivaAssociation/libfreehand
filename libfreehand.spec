@@ -8,7 +8,7 @@ Version: 0.1.2
 Release: 5
 Source0: http://dev-www.libreoffice.org/src/%{name}/libfreehand-%{version}.tar.bz2
 Summary: Library providing ability to import Adobe/Macromedia drawings
-URL: http://libfreehand.sf.net/
+URL: https://libfreehand.sf.net/
 License: MPL 2.0
 Group: System/Libraries
 Patch0: 0001-Add-missing-semicolon-to-fix-build-with-icu-65.1.patch
