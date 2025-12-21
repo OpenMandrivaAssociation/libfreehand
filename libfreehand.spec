@@ -12,6 +12,11 @@ URL: https://libfreehand.sf.net/
 License: MPL 2.0
 Group: System/Libraries
 Patch0: 0001-Add-missing-semicolon-to-fix-build-with-icu-65.1.patch
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires: doxygen
 BuildRequires: pkgconfig(icu-uc)
 BuildRequires: pkgconfig(librevenge-0.0)
